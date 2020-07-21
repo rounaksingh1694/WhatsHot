@@ -16,14 +16,14 @@ public class StarterApplication extends Application {
         super.onCreate();
 
         // Enable Local Datastore.
-        //Parse Server Password: LWmdXLB0G18W
+        
         Parse.enableLocalDatastore(this);
 
         // Add your initialization code here
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-                .applicationId("myappID")
-                .clientKey("LWmdXLB0G18W")
-                .server("http://3.15.201.164/parse/")
+                .applicationId("")
+                .clientKey("")
+                .server("")
                 .build()
         );
 
